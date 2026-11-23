@@ -1,0 +1,7 @@
+origin_id,name,description,mod_str,mod_dex,mod_con,mod_int,mod_wis,mod_cha,start_item_tag,origin_tag
+ORG_GRAVEROBBER,도굴꾼,무덤과 폐허를 뒤지며 살아온 자다. 함정 해제와 숨겨진 전리품 탐색에 능숙하다.,0,2,0,0,1,-1,IT_LOCKPICK,TAG_GRAVEROBBER
+ORG_DESERTER,탈영병,전쟁터에서 도망쳐 나온 병사다. 기초적인 응급 처치와 전투 감각이 몸에 배어 있다.,2,0,1,0,-1,0,IT_BANDAGE,TAG_SOLDIER
+ORG_HERETIC,이단자,금지된 교리를 따르다 쫓겨난 자다. 저주받은 유물과 고대 제단의 이치를 이해한다.,-1,0,0,2,1,0,IT_HOLY_WATER,TAG_OCCULT
+ORG_APOTHECARY,뒷골목 약사,어두운 골목에서 독과 약을 다루던 자다. 상태이상 치료와 약초 감정에 일가견이 있다.,-1,0,1,2,0,0,IT_ANTIDOTE,TAG_ALCHEMIST
+ORG_NOBLE,몰락 귀족,가문이 몰락해 빈털터리가 된 귀족이다. 타고난 위압감과 화술로 위기를 넘긴다.,-1,-1,0,1,0,3,IT_LENS_INSIGHT,TAG_NOBLE
+ORG_HUNTER,폐허 사냥꾼,황무지에서 괴물들을 추적하던 사냥꾼이다. 야수의 습성을 잘 알고 허기를 잘 버틴다.,1,1,1,0,1,-2,IT_RATION,TAG_HUNTER

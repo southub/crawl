@@ -1,0 +1,60 @@
+skill_id,class_id,unlock_level,skill_type,name,description,attr,target,scale_stat,dmg_dice,acc_mod,cost_mp,cost_hp,status_id,status_chance,self_status_id,special_flags
+SK_M_01,CLS_MERCENARY,1,COMBAT,녹슨 검격,안정적인 기본 참격이다. 대가 없이 적 하나를 베어낸다.,SLASH,SINGLE,STR,1d8,1,0,0,,0,,
+SK_M_02,CLS_MERCENARY,1,COMBAT,뼈 부수기,자루나 둔기로 적을 강하게 후려친다. 명중률이 낮지만 적을 기절시킬 수 있다.,BLUNT,SINGLE,STR,1d10,-2,2,0,ST_STUN,35,,
+SK_M_03,CLS_MERCENARY,1,COMBAT,횡베기,무기를 크게 휘둘러 앞선 모든 적을 벤다. 체력을 소모하며 명중이 불안정하다.,SLASH,ALL,STR,1d6,-2,0,3,,0,,
+SK_M_04,CLS_MERCENARY,2,COMBAT,피의 돌진,자신의 몸을 내던져 적을 꿰뚫는다. 체력을 희생하는 대신 높은 피해를 입힌다.,PIERCE,SINGLE,STR,2d8,0,0,5,ST_BLEED,40,,
+SK_M_05,CLS_MERCENARY,3,COMBAT,철벽 태세,피부를 단단히 굳히며 반격을 준비한다. 3턴간 받는 피해가 크게 줄어든다.,NONE,SELF,NONE,0,0,3,0,,0,ST_IRON_SKIN,
+SK_M_06,CLS_MERCENARY,4,COMBAT,분쇄 강타,전력을 다해 적의 방어를 부순다. 매우 높은 타격 피해를 주지만 명중이 크게 떨어진다.,BLUNT,SINGLE,STR,2d10,-3,4,0,ST_STUN,50,,IGNORE_DEF_50
+SK_M_07,CLS_MERCENARY,5,COMBAT,처형인의 일섬,모든 적의 급소를 노려 베어 넘긴다. 체력과 마력을 모두 소모하는 최후의 광역기다.,SLASH,ALL,STR,2d8,-1,4,4,ST_BLEED,50,,CRIT_PLUS_15
+SK_S_01,CLS_STALKER,1,COMBAT,급소 찌르기,빠르고 정확하게 적의 틈을 찌른다. 치명타 확률이 소폭 상승한다.,PIERCE,SINGLE,DEX,1d6,2,0,0,,0,,CRIT_PLUS_10
+SK_S_02,CLS_STALKER,1,COMBAT,동맥 절개,날카로운 칼날로 적을 베어 깊은 출혈을 유발한다.,SLASH,SINGLE,DEX,1d6,0,2,0,ST_BLEED,70,,
+SK_S_03,CLS_STALKER,1,COMBAT,비수 난사,무작위 적 2체에게 암기를 던진다. 위력은 약하지만 다수를 견제하기 좋다.,PIERCE,RANDOM_2,DEX,1d6,-1,2,0,,0,,
+SK_S_04,CLS_STALKER,2,COMBAT,독 바른 투척,독이 묻은 비수를 던져 적을 중독시킨다.,CURSE,SINGLE,DEX,1d6,1,3,0,ST_POISON,75,,
+SK_S_05,CLS_STALKER,3,COMBAT,모래 뿌리기,적 전체의 눈에 먼지를 뿌려 시야를 가리고 실명을 유발한다.,NONE,ALL,DEX,1d4,1,3,0,ST_BLIND,65,,
+SK_S_06,CLS_STALKER,4,COMBAT,약점 포착,숨을 죽이고 적의 허점을 분석한다. 명중률과 치명타가 오르며 적의 약점을 드러낸다.,NONE,SELF,WIS,0,0,3,0,,0,ST_FOCUS,REVEAL_WEAKNESS
+SK_S_07,CLS_STALKER,5,COMBAT,그림자 처형,치명적인 일격으로 적의 숨통을 끊는다. 체력이 절반 이하인 적에게 추가 피해를 입힌다.,PIERCE,SINGLE,DEX,2d10,1,5,0,,0,,EXECUTE_PLUS_50
+SK_P_01,CLS_PENITENT,1,COMBAT,사슬 강타,무거운 쇠사슬로 적을 내려친다. 강인한 육체에서 나오는 묵직한 기본 타격이다.,BLUNT,SINGLE,CON,1d8,0,0,0,,0,,
+SK_P_02,CLS_PENITENT,1,COMBAT,고행의 반격,스스로 고통을 받아들이며 공격해 3턴간 강철 피부 상태를 얻는다.,BLUNT,SINGLE,CON,1d6,1,2,2,,0,ST_IRON_SKIN,
+SK_P_03,CLS_PENITENT,1,COMBAT,가시 사슬 휘두르기,체력을 소모해 가시 돋친 사슬을 휘둘러 모든 적을 찌르고 출혈을 유발한다.,PIERCE,ALL,CON,1d6,-1,0,4,ST_BLEED,40,,
+SK_P_04,CLS_PENITENT,2,COMBAT,고통 감내,호흡을 가다듬어 출혈을 멎게 하고 치유의 온기 상태를 얻는다.,NONE,SELF,CON,0,0,3,0,,0,ST_REGEN,CURE_BLEED
+SK_P_05,CLS_PENITENT,3,COMBAT,육신 쇄도,자신의 체력을 대가로 적에게 온몸을 부딪쳐 큰 타격 피해와 기절을 유발한다.,BLUNT,SINGLE,CON,2d8,-1,0,6,ST_STUN,45,,
+SK_P_06,CLS_PENITENT,4,COMBAT,피의 성채,피를 흘리며 방어 태세를 굳힌다. 강철 피부를 얻고 방어 반격 피해가 크게 늘어난다.,NONE,SELF,CON,0,0,4,3,,0,ST_IRON_SKIN,COUNTER_DMG_PLUS_50
+SK_P_07,CLS_PENITENT,5,COMBAT,순교자의 파멸,막대한 체력을 희생해 전장의 모든 적을 분쇄한다. 방어를 일부 무시하고 기절을 유발한다.,BLUNT,ALL,CON,2d10,-1,4,8,ST_STUN,40,,IGNORE_DEF_50
+SK_O_01,CLS_OCCULTIST,1,COMBAT,재의 불꽃,마력을 응축해 불꽃을 날린다. 마력 소모가 적은 기본 원소 공격이다.,ELEMENTAL,SINGLE,INT,1d8,1,1,0,,0,,
+SK_O_02,CLS_OCCULTIST,1,COMBAT,부패의 저주,불길한 주문을 외워 적에게 저주 피해를 주고 방어력을 무너뜨린다.,CURSE,SINGLE,INT,1d6,0,2,0,ST_CURSE,65,,
+SK_O_03,CLS_OCCULTIST,1,COMBAT,유황 화염,지하의 열기를 끌어올려 모든 적을 태운다. 마력 소모가 크고 명중이 낮다.,ELEMENTAL,ALL,INT,1d8,-2,4,0,,0,,
+SK_O_04,CLS_OCCULTIST,2,COMBAT,공포의 속삭임,심연의 언어로 적의 정신을 뒤흔들어 공포에 빠뜨린다.,CURSE,SINGLE,INT,1d8,1,3,0,ST_FEAR,70,,
+SK_O_05,CLS_OCCULTIST,3,COMBAT,혈액 연성,자신의 생명력을 태워 마력을 강제로 끌어올리고 파괴적인 원소탄을 쏜다.,ELEMENTAL,SINGLE,INT,2d10,0,1,6,,0,,
+SK_O_06,CLS_OCCULTIST,4,COMBAT,빙결 파동,모든 적에게 극한의 냉기를 쏟아부어 피해를 주고 행동을 얼려버린다.,ELEMENTAL,ALL,INT,2d6,-1,5,0,ST_STUN,35,,
+SK_O_07,CLS_OCCULTIST,5,COMBAT,심연의 붕괴,금지된 술식으로 전장 전체를 저주로 뒤덮는다. 시전 후 본인도 무기력해질 위험이 있다.,CURSE,ALL,INT,2d10,-1,6,3,ST_CURSE,80,ST_LETHARGY,SELF_STATUS_CHANCE_30
+SK_I_01,CLS_INQUISITOR,1,COMBAT,철퇴 심판,무거운 철퇴로 적을 내려찍는다. 명중은 평범하지만 묵직한 타격을 준다.,BLUNT,SINGLE,STR,1d8,0,0,0,,0,,
+SK_I_02,CLS_INQUISITOR,1,COMBAT,이단 낙인,적의 죄악을 꿰뚫어 저주 피해를 주고 적의 공격 속성 하나를 강제로 드러낸다.,CURSE,SINGLE,WIS,1d6,2,2,0,,0,,REVEAL_ATTR
+SK_I_03,CLS_INQUISITOR,1,COMBAT,정화의 불길,성스러운 불길로 적 전체를 태워 언데드와 저주받은 자들을 압박한다.,ELEMENTAL,ALL,WIS,1d6,-1,3,0,,0,,BONUS_VS_UNDEAD_30
+SK_I_04,CLS_INQUISITOR,2,COMBAT,고해 강요,위압적인 언사로 적의 기세를 꺾어 공포에 빠뜨리고 타격 피해를 입힌다.,BLUNT,SINGLE,CHA,1d8,1,3,0,ST_FEAR,65,,
+SK_I_05,CLS_INQUISITOR,3,COMBAT,고통의 서약,자신의 피를 바쳐 투지를 일깨우고 적에게 강력한 일격을 꽂는다.,BLUNT,SINGLE,STR,2d6,0,2,4,,0,ST_ADRENALINE,
+SK_I_06,CLS_INQUISITOR,4,COMBAT,파문의 낙뢰,하늘의 분노를 본뜬 전격으로 적 하나를 꿰뚫는다. 높은 확률로 기절시킨다.,ELEMENTAL,SINGLE,WIS,2d8,1,4,0,ST_STUN,55,,
+SK_I_07,CLS_INQUISITOR,5,COMBAT,최후의 성전,모든 적에게 심판의 빛을 내려 자신의 저주를 정화하고 강력한 원소 피해를 입힌다.,ELEMENTAL,ALL,WIS,2d8,0,5,0,,0,,CURE_SELF_CURSE
+SK_D_01,CLS_DEMAGOGUE,1,COMBAT,기만의 단검,화려한 손놀림으로 시선을 빼앗은 뒤 빈틈을 찌른다. 치명타 확률이 높다.,PIERCE,SINGLE,CHA,1d6,2,0,0,,0,,CRIT_PLUS_10
+SK_D_02,CLS_DEMAGOGUE,1,COMBAT,조롱과 위압,모욕과 협박으로 적을 공포에 빠뜨리고 적의 공격 속성 하나를 노출시킨다.,CURSE,SINGLE,CHA,1d6,2,2,0,ST_FEAR,60,,REVEAL_ATTR
+SK_D_03,CLS_DEMAGOGUE,1,COMBAT,불화의 선동,적 전체의 사기를 뒤흔드는 언변으로 저주 피해와 공포를 퍼뜨린다.,CURSE,ALL,CHA,1d6,-1,3,0,ST_FEAR,40,,
+SK_D_04,CLS_DEMAGOGUE,2,COMBAT,치명적인 허세,위험한 도박수를 던져 적을 베고 스스로 투지 상태에 돌입한다.,SLASH,SINGLE,CHA,2d6,-1,2,0,,0,ST_ADRENALINE,CRIT_PLUS_15
+SK_D_05,CLS_DEMAGOGUE,3,COMBAT,저주받은 언변,악의에 찬 저주를 퍼부어 적의 방어와 행운을 철저히 무너뜨린다.,CURSE,SINGLE,CHA,1d10,1,3,0,ST_CURSE,75,,
+SK_D_06,CLS_DEMAGOGUE,4,COMBAT,혼돈의 난투,무작위 적 2체의 급소를 교란하며 공격해 실명을 유발하고 치명타를 노린다.,PIERCE,RANDOM_2,CHA,2d6,0,4,0,ST_BLIND,50,,CRIT_PLUS_15
+SK_D_07,CLS_DEMAGOGUE,5,COMBAT,절망의 포고,암굴의 공포를 대변하는 선언으로 적 전체에 저주를 내리고 모든 공격 속성을 드러낸다.,CURSE,ALL,CHA,2d8,0,5,0,ST_CURSE,70,,REVEAL_ALL_ATTR|CRIT_PLUS_20
+SK_W_01,CLS_WANDERER,1,COMBAT,생존용 손도끼,다루기 쉬운 손도끼로 적을 안정적으로 베어낸다.,SLASH,SINGLE,STR,1d8,1,0,0,,0,,
+SK_W_02,CLS_WANDERER,1,COMBAT,급조 화염병,기름병에 불을 붙여 던져 적 전체에 원소 피해를 입힌다.,ELEMENTAL,ALL,INT,1d6,-1,2,0,,0,,
+SK_W_03,CLS_WANDERER,1,COMBAT,투석기 사격,단단한 돌을 날려 적을 타격하고 확률적으로 기절시킨다.,BLUNT,SINGLE,DEX,1d8,1,1,0,ST_STUN,30,,
+SK_W_04,CLS_WANDERER,2,COMBAT,응급 처치술,전투 중에도 침착하게 출혈과 경미한 부상을 처치하고 치유의 온기를 얻는다.,NONE,SELF,WIS,0,0,3,0,,0,ST_REGEN,CURE_BLEED_LIGHT_INJURY
+SK_W_05,CLS_WANDERER,3,COMBAT,변칙 연격,예측하기 어려운 각도로 무작위 적 2체를 찔러 출혈을 유발한다.,PIERCE,RANDOM_2,DEX,1d8,0,3,0,ST_BLEED,45,,
+SK_W_06,CLS_WANDERER,4,COMBAT,전술적 간파,적의 움직임을 읽고 저주 피해를 주며 적의 모든 강점과 약점을 밝혀낸다.,CURSE,SINGLE,WIS,1d8,2,3,0,,0,ST_FOCUS,REVEAL_ALL_RESIST
+SK_W_07,CLS_WANDERER,5,COMBAT,생존자의 일격,온갖 사선을 넘으며 익힌 실전 기술로 방어를 무시하고 치명적인 일격을 가한다.,SLASH,SINGLE,STR,2d10,1,4,2,,0,,IGNORE_DEF_50|CRIT_PLUS_15
+SK_C_01,COMMON,0,COMBAT,위협적인 포효,기백을 터뜨려 적 전체의 기세를 꺾고 다음 공격 속성을 강제로 노출시킨다.,NONE,ALL,CHA,0,2,2,0,ST_FEAR,40,,REVEAL_ALL_ATTR
+SK_C_02,COMMON,0,COMBAT,필사의 일격,체력을 깎아내며 무모하게 돌진한다. 명중률은 최악이지만 적중 시 치명적인 피해를 준다.,BLUNT,SINGLE,STR,2d10,-4,0,5,,0,,CRIT_PLUS_20
+SK_C_03,COMMON,0,COMBAT,약점 간파,냉정하게 적을 관찰해 적의 강점과 약점을 모두 밝혀내고 집중 상태에 돌입한다.,NONE,SINGLE,WIS,0,0,2,0,,0,ST_FOCUS,REVEAL_ALL_RESIST
+SK_C_04,COMMON,0,NON_COMBAT,응급 지혈,탐험 중 마력을 소모해 출혈과 경미한 부상을 스스로 처치하고 체력을 소량 회복한다.,NONE,SELF,WIS,0,0,3,0,,0,,CURE_BLEED_LIGHT_INJURY|HEAL_6
+SK_C_05,COMMON,0,NON_COMBAT,기척 지우기,어둠에 몸을 숨겨 5스텝 동안 기척 차단 상태를 얻고 소음 상태를 즉시 해제한다.,NONE,SELF,DEX,0,0,3,0,,0,ST_STEALTH,CURE_NOISE
+SK_C_06,COMMON,0,NON_COMBAT,심연의 명상,탐험 중 깊은 호흡으로 정신을 가다듬어 무기력을 해소하고 소량의 마력을 회복한다.,NONE,SELF,WIS,0,0,0,2,,0,,CURE_LETHARGY|RESTORE_MP_5
+SK_C_07,COMMON,0,COMBAT,어둠의 투척,주변의 돌멩이나 파편을 튕겨 적의 시야를 방해하고 실명 상태를 유발한다.,BLUNT,SINGLE,DEX,1d6,1,2,0,ST_BLIND,55,,
+SK_C_08,COMMON,0,COMBAT,임기응변 방벽,마력을 급히 끌어올려 3턴간 강철 피부 상태에 돌입하고 체력을 소량 회복한다.,NONE,SELF,CON,0,0,3,0,,0,ST_IRON_SKIN,HEAL_4
+SK_C_09,COMMON,0,NON_COMBAT,식량 채집술,탐험 중 마력을 소모해 암굴의 이끼와 식용 균류를 찾아 허기 게이지를 크게 줄인다.,NONE,SELF,WIS,0,0,3,0,,0,,REDUCE_HUNGER_25
+SK_C_10,COMMON,0,NON_COMBAT,독기 배출,체력을 대가로 혈관의 독소를 강제로 토해내 중독 상태를 즉시 해제한다.,NONE,SELF,CON,0,0,1,4,,0,,CURE_POISON

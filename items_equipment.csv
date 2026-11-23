@@ -1,0 +1,37 @@
+item_id,slot,name,tier,rarity,description,req_stat,req_val,atk_dice,atk_attr,def_bonus,evade_bonus,acc_bonus,crit_bonus,max_durability,special_flags
+EQ_W_RUST_SWORD,WEAPON,녹슨 장검,1,COMMON,날이 무뎌진 낡은 검이다. 평범하지만 다루기 쉽다.,STR,9,1d4,SLASH,0,0,1,0,14,
+EQ_W_IRON_DAGGER,WEAPON,암굴 단검,1,COMMON,어둠 속에서 급소를 찌르기 좋은 짧은 단검이다.,DEX,9,1d4,PIERCE,0,0,2,10,12,
+EQ_W_WOOD_CLUB,WEAPON,철심 몽둥이,1,COMMON,쇠못을 박아 넣은 묵직한 곤봉이다. 투박하지만 타격감이 확실하다.,STR,10,1d6,BLUNT,0,0,-1,0,16,
+EQ_W_HUNTING_BOW,WEAPON,낡은 사냥활,1,COMMON,시위가 느슨해진 단궁이다. 거리를 두고 급소를 찌르기 좋다.,DEX,10,1d6,PIERCE,0,0,1,5,13,
+EQ_W_ASH_STAFF,WEAPON,재의 지팡이,1,UNCOMMON,마력이 희미하게 남아 있는 낡은 지팡이다. 원소 공격을 증폭한다.,INT,10,1d4,ELEMENTAL,0,0,1,0,12,MAX_MP_PLUS_2
+EQ_W_CURSED_BELL,WEAPON,깨진 의식용 종,1,UNCOMMON,불길한 울림을 내는 낡은 동종이다. 타격 시 적의 공격 속성을 엿볼 수 있다.,WIS,9,1d4,CURSE,0,0,1,0,12,REVEAL_ATTR_CHANCE_20
+EQ_W_SAW_CLEAVER,WEAPON,톱날 도축칼,2,UNCOMMON,거친 톱니가 달린 도축용 칼이다. 깊은 출혈을 일으킨다.,STR,11,1d6,SLASH,0,0,0,5,14,BLEED_CHANCE_20
+EQ_W_IRON_FLAIL,WEAPON,가시 철퇴,2,UNCOMMON,사슬 끝에 쇠공이 달린 둔기다. 방어를 뚫고 충격을 준다.,CON,11,1d6,BLUNT,0,0,-1,0,16,STUN_CHANCE_15
+EQ_W_SILVER_RAPIER,WEAPON,은도금 레이피어,2,UNCOMMON,화려한 손잡이가 달린 세검이다. 치명타가 높고 언데드에게 강하다.,CHA,11,1d6,PIERCE,0,0,2,10,13,BONUS_VS_UNDEAD_20
+EQ_W_CENSER_MACE,WEAPON,심문관의 향로철퇴,2,UNCOMMON,성유를 태우던 무거운 철퇴다. 언데드와 저주받은 자에게 추가 피해를 준다.,WIS,11,1d6,BLUNT,0,0,1,0,15,BONUS_VS_UNDEAD_20
+EQ_W_BONE_SPEAR,WEAPON,고대 뼈창,3,RARE,거대한 괴물의 뼈를 깎아 만든 창이다. 갑옷의 틈을 날카롭게 꿰뚫는다.,DEX,12,1d8,PIERCE,0,0,2,5,14,IGNORE_DEF_25
+EQ_W_HEX_TOME,WEAPON,금지된 마도서,3,RARE,검은 가죽으로 장정된 금서다. 저주 술식의 위력을 끌어올린다.,INT,12,1d8,CURSE,0,0,1,5,12,MAX_MP_PLUS_4
+EQ_W_BLOOD_WHIP,WEAPON,가시 채찍,3,RARE,날카로운 쇠갈고리가 엮인 채찍이다. 넓은 범위로 휘둘러 출혈을 유발한다.,CHA,12,1d8,SLASH,0,0,1,10,13,BLEED_CHANCE_25
+EQ_W_FROST_AXE,WEAPON,서리 전투도끼,3,RARE,만년설의 한기가 서린 전투도끼다. 베인 대상의 의지를 꺾는다.,STR,12,1d8,ELEMENTAL,0,0,0,5,15,LETHARGY_CHANCE_15
+EQ_W_SULFUR_BLADE,WEAPON,유황 대검,4,EPIC,지하 균열의 열기를 품은 거대한 검이다. 검신에서 불꽃이 일렁인다.,STR,13,1d10,ELEMENTAL,0,0,0,10,16,IGNITE_DMG_3
+EQ_W_IRON_MAUL,WEAPON,처형인의 대형망치,4,EPIC,강인한 육체로만 다룰 수 있는 거대 망치다. 높은 확률로 적을 기절시킨다.,CON,13,1d10,BLUNT,0,0,-1,0,18,STUN_CHANCE_25
+EQ_W_GLACIER_WAND,WEAPON,빙하의 마법봉,4,EPIC,얼어붙은 지하 수정으로 깎은 지팡이다. 원소 공격의 명중과 마력을 높인다.,INT,13,1d10,ELEMENTAL,0,0,2,5,14,MAX_MP_PLUS_4
+EQ_W_SHADOW_STILETTO,WEAPON,그림자 송곳단검,4,EPIC,어둠처럼 검게 벼린 암살용 단검이다. 방어를 꿰뚫고 치명적인 일격을 가한다.,DEX,13,1d8,PIERCE,0,0,3,20,14,IGNORE_DEF_30
+EQ_W_ABYSS_REAVER,WEAPON,심연의 낫,5,LEGENDARY,어둠빛의 기운이 응축된 저주받은 낫이다. 적의 생명력을 흡수한다.,NONE,0,2d6,CURSE,0,0,2,15,18,LIFESTEAL_20
+EQ_W_DARK_LIGHT_LANCE,WEAPON,어둠빛의 창,5,LEGENDARY,심연의 빛이 깃든 전설의 창이다. 적의 방어를 절반 무시하고 원소로 꿰뚫는다.,NONE,0,2d6,ELEMENTAL,0,0,2,10,18,IGNORE_DEF_50
+EQ_A_RAGS,ARMOR,누더기 외투,1,COMMON,찢어지고 낡은 가죽 외투다. 없는 것보다는 낫다.,NONE,0,0,NONE,1,1,0,0,12,
+EQ_A_LEATHER,ARMOR,경화 가죽갑옷,1,COMMON,기름을 먹여 단단하게 만든 가죽 갑옷이다. 기동성을 해치지 않는다.,DEX,9,0,NONE,2,1,0,0,15,
+EQ_A_GAMBESON,ARMOR,누비 방어복,1,COMMON,두꺼운 천을 여러 겹 겹쳐 꿰맨 방어복이다. 둔탁한 충격을 잘 버틴다.,CON,9,0,NONE,2,0,0,0,14,
+EQ_A_NOBLE_COAT,ARMOR,빛바랜 귀족 외투,1,UNCOMMON,고급 옷감으로 지어진 낡은 외투다. 기품을 유지해 교섭 판정에 유리하다.,CHA,10,0,NONE,1,2,0,0,13,CHA_CHECK_PLUS_1
+EQ_A_CHAINMAIL,ARMOR,녹슨 사슬갑옷,2,UNCOMMON,무겁지만 참격 공격을 막아내는 데 뛰어난 사슬 갑옷이다.,STR,11,0,NONE,3,-1,0,0,18,RESIST_SLASH
+EQ_A_OCCULT_ROBE,ARMOR,이교도 로브,2,UNCOMMON,불길한 문양이 수놓인 로브다. 저주 저항력과 마력을 높여준다.,WIS,11,0,NONE,1,1,0,0,14,RESIST_CURSE|MAX_MP_PLUS_2
+EQ_A_BONE_VEST,ARMOR,뼈갑 조끼,2,UNCOMMON,짐승과 괴물의 갈비뼈를 엮어 만든 조끼다. 관통 공격을 막아낸다.,CON,11,0,NONE,3,0,0,0,16,RESIST_PIERCE
+EQ_A_ALCHEMIST_APRON,ARMOR,약사의 가죽 앞치마,2,UNCOMMON,약품을 처리한 질긴 작업복이다. 독기와 산성 물질에 강한 저항력을 가진다.,INT,11,0,NONE,2,1,0,0,15,POISON_RESIST
+EQ_A_IRON_PLATE,ARMOR,중장 철갑옷,3,RARE,두꺼운 철판으로 제작된 갑옷이다. 회피가 둔해지지만 높은 방어력을 제공한다.,CON,12,0,NONE,5,-2,0,0,20,RESIST_BLUNT
+EQ_A_SHADOW_CLOAK,ARMOR,어둠의 망토,3,RARE,암굴의 어둠과 동화되는 얇은 망토다. 회피가 크게 오르고 적의 눈을 피한다.,DEX,12,0,NONE,2,3,0,0,14,COMBAT_RATE_MINUS_5
+EQ_A_INQUISITOR_COAT,ARMOR,심문관의 성의,3,RARE,철판을 덧댄 교단의 제복이다. 저주를 막고 적의 약점을 간파하는 데 도움을 준다.,WIS,12,0,NONE,3,1,0,0,16,RESIST_CURSE|INSIGHT_PLUS_10
+EQ_A_SPIKED_CUIRASS,ARMOR,가시 흉갑,3,RARE,전면에 날카로운 철침이 박힌 흉갑이다. 피격 시 적에게 반사 피해를 준다.,STR,12,0,NONE,4,-1,0,0,18,THORNS_DMG_2
+EQ_A_SULFUR_MAIL,ARMOR,유황 비늘갑옷,4,EPIC,열기를 견디는 괴물의 비늘로 엮은 갑옷이다. 원소 피해를 크게 줄인다.,CON,13,0,NONE,5,-1,0,0,18,RESIST_ELEMENTAL
+EQ_A_FROST_PLATE,ARMOR,빙하 판금갑옷,4,EPIC,극한의 냉기로 단련된 무거운 갑옷이다. 참격과 원소 피해를 동시에 경감한다.,STR,13,0,NONE,6,-2,0,0,20,RESIST_SLASH|RESIST_ELEMENTAL
+EQ_A_ABYSS_SHROUD,ARMOR,심연의 수의,5,LEGENDARY,최심부의 어둠으로 직조된 전설의 방어구다. 방어 반격의 위력을 극대화한다.,NONE,0,0,NONE,6,2,0,0,20,RESIST_CURSE|COUNTER_DMG_PLUS_25
+EQ_A_VOID_MANTLE,ARMOR,공허의 외투,5,LEGENDARY,형체가 흐릿하게 일렁이는 최심부의 외투다. 회피가 극대화되고 적을 피하기 쉬워진다.,NONE,0,0,NONE,4,4,0,0,18,COMBAT_RATE_MINUS_10|EVADE_PLUS_10

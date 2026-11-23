@@ -1,0 +1,22 @@
+item_id,name,category,tier,rarity,usable_in,description,hp_delta,mp_delta,hunger_delta,cure_tags,apply_status_id,side_effect_status_id,side_effect_chance,special_flags
+IT_RATION,건조 전투식량,FOOD,1,COMMON,EXPLORE,딱딱하고 맛없는 보존 식량이다. 허기를 안정적으로 달래준다.,2,0,-30,FOOD,,,0,
+IT_DRIED_MEAT,훈제 육포,FOOD,2,UNCOMMON,BOTH,질기지만 영양가가 높은 육포다. 허기를 크게 줄이고 체력을 회복한다.,6,0,-45,FOOD,,,0,
+IT_MYSTERY_MEAT,정체불명의 고기,FOOD,1,COMMON,EXPLORE,암굴에서 구한 수상한 생고기다. 허기를 크게 채우지만 중독될 위험이 있다.,4,0,-50,FOOD,,ST_POISON,35,
+IT_BANDAGE,거친 붕대,MEDICINE,1,COMMON,BOTH,낡은 천으로 만든 붕대다. 출혈과 피비린내 및 경미한 부상을 처치한다.,3,0,0,BANDAGE,,,0,
+IT_STYPTIC,지혈 가루,MEDICINE,1,COMMON,COMBAT,상처에 뿌려 피를 멎게 하는 약초 가루다. 출혈을 즉시 멈춘다.,5,0,0,STYPTIC,,,0,
+IT_MEDKIT,응급 치료 키트,MEDICINE,2,RARE,EXPLORE,소독약과 봉합 도구가 든 키트다. 부상을 치료하고 체력을 크게 회복한다.,16,0,0,BANDAGE|MEDKIT,,,0,
+IT_SPLINT,부목 세트,MEDICINE,2,UNCOMMON,EXPLORE,부러진 뼈를 고정하는 나무 부목과 붕대다. 치명적인 중상을 치료한다.,4,0,0,SPLINT,,,0,
+IT_ANTIDOTE,해독제,MEDICINE,1,COMMON,BOTH,쓴맛이 나는 녹색 물약이다. 혈관에 퍼진 독소를 중화한다.,0,0,0,ANTIDOTE,,,0,
+IT_HERB,암굴 정화초,MEDICINE,2,UNCOMMON,BOTH,습한 동굴 벽면에서 자라는 희귀 약초다. 중독을 풀고 체력을 회복한다.,6,0,0,HERB,,,0,
+IT_WATER,맑은 지하수,MEDICINE,1,COMMON,BOTH,깨끗한 물이 담긴 가죽 부대다. 실명과 피비린내를 씻어내고 갈증을 달랜다.,2,0,-10,WATER,,,0,
+IT_ALCOHOL,독한 밀주,MEDICINE,1,COMMON,EXPLORE,목이 타는 듯한 저급 증류주다. 무기력을 떨쳐내지만 취기로 시야가 흐려질 수 있다.,0,0,0,ALCOHOL,,ST_BLIND,25,
+IT_SEDATIVE,안정제,MEDICINE,2,UNCOMMON,BOTH,신경을 가라앉히는 약물이다. 공포와 무기력 상태를 즉시 해소한다.,0,3,0,SEDATIVE,,,0,
+IT_HOLY_WATER,성수,MEDICINE,2,RARE,BOTH,교단의 축복이 깃든 맑은 물이다. 저주를 정화하고 희미한 가호를 얻는다.,0,0,0,HOLY_WATER,ST_BLESSING,,0,
+IT_PURIFY_SCROLL,정화 주문서,MEDICINE,3,EPIC,BOTH,고대 문자가 적힌 양피지다. 저주를 비롯한 모든 부정적 상태이상을 정화한다.,0,0,0,SCROLL,,,0,CURE_ALL_DEBUFF
+IT_SMOKE_BOMB,연막탄,TOOL,2,UNCOMMON,BOTH,짙은 연기를 피워 소음을 지우고 기척을 숨긴다. 전투 중 사용 시 확정 도주한다.,0,0,0,SMOKE,ST_STEALTH,,0,GUARANTEED_FLEE
+IT_LOCKPICK,녹슨 자물쇠따개,TOOL,1,COMMON,EXPLORE,잠긴 궤짝이나 철문을 열 때 사용하는 도구다. 비전투 판정에 큰 보너스를 준다.,0,0,0,,,,0,LOCKPICK_BONUS_4
+IT_LENS_INSIGHT,간파의 수정렌즈,TOOL,1,UNCOMMON,COMBAT,마력이 서린 수정 렌즈다. 대상 적의 강점과 약점 및 모든 공격 속성을 즉시 드러낸다.,0,0,0,,,,0,REVEAL_ALL_INFO
+IT_IDENTIFY_SCROLL,감정 주문서,TOOL,2,UNCOMMON,EXPLORE,미감정 장비에 숨겨진 대가와 특수 효과를 즉시 밝혀낸다.,0,0,0,,,,0,IDENTIFY_ITEM
+IT_STIMULANT,각성제,BUFF,2,UNCOMMON,COMBAT,극한의 아드레날린을 끌어올려 투지 상태에 돌입한다. 효과가 끝날 때 무기력 위험이 있다.,0,0,5,,ST_ADRENALINE,ST_LETHARGY,25,
+IT_IRON_ELIXIR,경화 비약,BUFF,3,RARE,COMBAT,피부를 강철처럼 단단히 굳히고 마력을 회복한다.,0,6,0,,ST_IRON_SKIN,,0,
+IT_MANA_SHARD,마력 결정,RECOVERY,2,UNCOMMON,BOTH,응축된 지하 마력 결정이다. 흡수 시 마력을 크게 회복한다.,0,12,0,,,,0,

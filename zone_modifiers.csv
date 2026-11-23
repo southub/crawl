@@ -1,0 +1,11 @@
+mod_id,name,description,min_tier,mod_dc,mod_combat_rate,mod_hunger_step,mod_heal_pct,mod_enemy_dmg_pct,mod_player_acc_pct,mod_loot_pct,special_flags
+ZM_DARKNESS,칠흑의 어둠,시야가 극도로 제한되어 명중률과 판정이 불리해지지만 적에게 발각될 확률도 줄어든다.,1,1,-10,0,0,0,-10,0,HIDE_FIRST_ATTR
+ZM_ECHO,울려 퍼지는 메아리,작은 발소리도 크게 번져 적을 끌어들이지만 전리품을 찾을 기회는 늘어난다.,1,0,15,0,0,0,0,25,
+ZM_DAMP,습한 냉기,한기가 뼈에 스며 회복 효율이 떨어지고 체력 소모가 빨라진다.,1,0,0,2,-30,0,0,0,ELEMENTAL_WEAK_BOOST
+ZM_STAGNANT,정체된 고요,기괴할 정도로 조용해 휴식 효율이 높아지지만 비전투 함정과 장치의 난이도가 오른다.,1,2,-10,0,50,0,0,0,
+ZM_BLOOD_MIST,피비린내 안개,피 냄새가 자욱해 적들이 광폭화하여 공격력이 오르지만 방어 반격 시 추가 피해를 입는다.,2,0,10,0,0,20,0,0,COUNTER_DMG_PLUS_50
+ZM_MIASMA,독기의 장막,유독한 안개가 감돌아 상태이상 저항이 어려워지고 매 전투 시작 시 중독 위험이 따른다.,2,1,0,1,-20,0,0,15,COMBAT_START_POISON_CHECK
+ZM_GRAVE_CHILL,망자의 한기,불길한 기운이 이성을 갉아먹어 무기력에 빠지기 쉬워지지만 마력 소모가 줄어든다.,2,1,0,0,0,0,0,0,MP_COST_MINUS_1|LETHARGY_RISK
+ZM_CRUMBLING,무너지는 천장,지반이 불안정해 도주가 불가능하며 판정 난이도가 오르지만 숨겨진 보물이 드러난다.,2,2,5,0,0,0,0,35,NO_FLEE
+ZM_ABYSS_GAZE,심연의 시선,보이지 않는 시선이 압박해 적의 공격이 거세지고 대실패 범위가 넓어지지만 경험치 획득이 늘어난다.,3,1,10,0,0,15,0,0,FUMBLE_2|EXP_PLUS_25
+ZM_SCORCHING,숨 막히는 열기,건조한 열기로 허기가 빠르게 차오르지만 시야가 선명해져 명중률이 상승한다.,3,0,0,3,-25,10,10,0,

@@ -1,0 +1,11 @@
+variant_id,prefix_name,description,min_tier,match_theme_tag,hp_mult,dmg_mult,mod_def,mod_evasion,mod_acc,override_strong_attr,override_weak_attr,bonus_status_id,bonus_status_chance,special_flags
+VAR_STARVING,굶주린,극심한 굶주림에 미쳐 공격력이 높고 출혈을 유발하지만 명중이 불안정하고 체력이 낮다.,1,BEAST,0.85,1.25,0,0,-2,,,ST_BLEED,35,
+VAR_OILED,기름에 젖은,몸에 검은 기름이 묻어 미끄럽고 회피가 높지만 원소 공격에 극도로 취약하다.,1,RUIN,0.95,1.0,0,2,0,,ELEMENTAL,,0,DOUBLE_WEAK_DMG
+VAR_MOSSY,이끼 낀,질긴 동굴 이끼가 몸을 덮어 방어력이 오르고 매 턴 체력을 소량 회복한다.,1,WET,1.1,0.95,2,-1,0,BLUNT,,,0,REGEN_3
+VAR_VENOMOUS,맹독의,몸에서 독액이 흘러내려 모든 공격에 중독 위험이 더해진다.,1,POISON,1.0,1.0,0,0,0,CURSE,,ST_POISON,40,
+VAR_ARMORED,갑옷 두른,선행 모험가의 낡은 갑옷 조각이 박혀 방어력이 크게 상승하지만 움직임이 둔하다.,2,TRAP,1.15,1.0,3,-2,0,SLASH,BLUNT,,0,
+VAR_BLOODIED,피에 젖은,피비린내를 풍기며 광폭화한 상태다. 공격력이 오르며 공격 시 피비린내를 묻힌다.,2,BLOOD,1.0,1.2,0,1,1,,,ST_BLOOD_SCENT,50,
+VAR_CURSED,저주받은,불길한 기운에 휩싸여 공격 시 저주를 걸고 받는 피해가 줄어든다.,2,CURSE,1.1,1.1,1,0,0,CURSE,,ST_CURSE,35,
+VAR_SCORCHED,불타는,열기에 달아올라 원소 공격에 저항하며 사망 시 폭발해 피해를 입힌다.,3,HEAT,1.0,1.15,0,0,1,ELEMENTAL,,,0,EXPLODE_DMG_6
+VAR_FROZEN,서리 낀,차가운 얼음 갑각으로 덮여 참격에 강하며 공격 시 대상을 둔화시킨다.,3,COLD,1.15,1.0,2,-1,0,SLASH,BLUNT,ST_LETHARGY,25,
+VAR_ABYSSAL,심연에 물든,최심부의 어둠에 침식된 변종이다. 모든 능력이 크게 상승하고 치명적인 공포를 유발한다.,4,ABYSS,1.25,1.2,2,1,2,,,ST_FEAR,40,

@@ -1,0 +1,11 @@
+acc_id,name,tier,rarity,description,mod_str,mod_dex,mod_con,mod_int,mod_wis,mod_cha,special_flags
+ACC_IRON_SHACKLE,녹슨 죄수의 족쇄,1,COMMON,무거운 쇠고랑의 잔해다. 완력이 솟아오르지만 움직임이 둔해져 회피가 떨어진다.,2,-1,0,0,0,0,EVADE_MINUS_5
+ACC_RAT_CHARM,쥐뼈 부적,1,COMMON,역병쥐의 뼈를 엮은 기괴한 부적이다. 몸이 가벼워지지만 기력이 빠져 허기가 빨라진다.,0,2,-1,0,0,0,HUNGER_RATE_PLUS_15
+ACC_BLOOD_RING,굳은 피의 반지,2,UNCOMMON,피가 말라붙은 붉은 반지다. 육체가 강인해지지만 피비린내가 번져 적을 끌어들인다.,0,0,2,0,-1,0,COMBAT_RATE_PLUS_10
+ACC_CRACKED_MONOCLE,금 간 단안경,2,UNCOMMON,마력이 깃든 낡은 단안경이다. 지능과 간파력이 오르지만 시야가 좁아져 받는 피해가 늘어난다.,-1,0,0,2,0,0,INSIGHT_PLUS_10|DMG_TAKEN_PLUS_10
+ACC_SILVER_SIGNET,몰락 가문의 인장,2,UNCOMMON,낡은 은제 가문 반지다. 위압감과 치명타가 오르지만 유약한 체질로 변해 부상 위험이 커진다.,0,0,-1,0,0,2,CRIT_PLUS_5|INJURY_RISK_HIGH
+ACC_HERETIC_ROSARY,이단자의 묵주,3,RARE,검게 변색된 뼈 묵주다. 지혜가 크게 오르고 저주에 강해지지만 휴식 회복 효율이 떨어진다.,0,0,0,0,3,-2,RESIST_CURSE|REST_HEAL_MINUS_25
+ACC_GLUTTON_PENDANT,탐식의 펜던트,3,RARE,입을 벌린 괴물 형상의 목걸이다. 힘과 건강이 크게 오르지만 허기가 30퍼센트 빠르게 차오른다.,2,-2,2,0,0,0,HUNGER_RATE_PLUS_30
+ACC_MADMAN_BELL,광인의 은방울,4,EPIC,들리지 않는 속삭임이 울리는 방울이다. 지능과 카리스마 및 마력이 급증하지만 대실패 위험이 커진다.,0,0,0,3,-3,2,MAX_MP_PLUS_4|FUMBLE_2
+ACC_SHADOW_BROOCH,그림자 브로치,4,EPIC,빛을 삼키는 검은 브로치다. 민첩이 크게 오르고 적을 피하기 쉬워지지만 피격 시 치명상을 입는다.,-2,3,0,0,1,0,COMBAT_RATE_MINUS_10|DMG_TAKEN_PLUS_15
+ACC_DARK_LIGHT_SHARD,어둠빛의 파편,5,LEGENDARY,다크 라이트에서 떨어져 나온 작은 조각이다. 건강을 제외한 모든 능력이 오르지만 매 스텝 생명력을 갉아먹는다.,2,2,-3,2,2,2,STEP_HP_MINUS_1|CRIT_PLUS_10
