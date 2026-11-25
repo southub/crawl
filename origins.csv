@@ -1,0 +1,10 @@
+origin_id,name,description,mod_str,mod_dex,mod_con,mod_int,mod_wis,mod_cha,start_item_tag,origin_tag
+ORG_GRAVEROBBER,도굴꾼,무덤과 폐허를 뒤지며 살아온 자다. 함정 해제와 숨겨진 전리품 탐색에 능숙하다.,0,2,0,0,1,-1,IT_LOCKPICK,TAG_GRAVEROBBER
+ORG_DESERTER,탈영병,전쟁터에서 도망쳐 나온 병사다. 기초적인 응급 처치와 전투 감각이 몸에 배어 있다.,2,0,1,0,-1,0,IT_SPLINT,TAG_SOLDIER
+ORG_HERETIC,이단자,금지된 교리를 따르다 쫓겨난 자다. 저주받은 유물과 고대 제단의 이치를 이해한다.,-1,0,0,2,1,0,IT_HOLY_WATER,TAG_OCCULT
+ORG_APOTHECARY,뒷골목 약사,어두운 골목에서 독과 약을 다루던 자다. 상태이상 치료와 약초 감정에 일가견이 있다.,-1,0,1,2,0,0,IT_ANTIDOTE,TAG_ALCHEMIST
+ORG_NOBLE,몰락 귀족,가문이 몰락해 빈털터리가 된 귀족이다. 타고난 위압감과 화술로 위기를 넘긴다.,-1,-1,0,1,0,3,IT_LENS_INSIGHT,TAG_NOBLE
+ORG_HUNTER,폐허 사냥꾼,황무지에서 괴물들을 추적하던 사냥꾼이다. 야수의 습성을 잘 알고 허기를 잘 버틴다.,1,1,1,0,1,-2,IT_DRIED_MEAT,TAG_HUNTER
+ORG_PIT_FIGHTER,지하 투사,암굴 외곽의 불법 투기장에서 피를 흘리며 살아남은 자다. 강인한 육체와 실전 전투 감각을 지녔다.,1,0,2,-1,0,0,IT_STIMULANT,TAG_SOLDIER
+ORG_PENITENT_MONK,추방된 수도승,교단의 규율을 어기고 지하로 쫓겨난 수행자다. 흔들리지 않는 정신력과 깊은 통찰을 지녔다.,0,-1,1,0,2,0,IT_SEDATIVE,TAG_OCCULT
+ORG_PEDDLER,암굴 행상인,위험을 무릅쓰고 암굴 입구에서 물자를 거래하던 장사꾼이다. 눈치가 빠르고 유물 감정에 능숙하다.,-1,1,0,0,1,1,IT_IDENTIFY_SCROLL,TAG_NOBLE

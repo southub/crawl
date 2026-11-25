@@ -1,0 +1,8 @@
+class_id,name,focus_stat,description,base_str,base_dex,base_con,base_int,base_wis,base_cha,base_hp_bonus,base_mp_bonus,strong_attr,weak_attr,start_skills
+CLS_MERCENARY,몰락한 용병,STR,전장을 떠돌다 빚에 쫓겨 암굴로 기어든 전사다. 압도적인 완력과 묵직한 물리 화력으로 적을 찍어 누른다.,15,10,12,7,8,8,6,0,SLASH,CURSE,SK_M_01|SK_M_02|SK_M_03
+CLS_STALKER,어둠의 추적자,DEX,지하 세계의 밀수꾼이자 도굴꾼 출신이다. 빠른 선공과 회피 및 출혈 공격으로 적의 숨통을 끊는다.,9,15,9,9,9,9,0,2,PIERCE,BLUNT,SK_S_01|SK_S_02|SK_S_03
+CLS_PENITENT,철갑 고행자,CON,죄를 씻기 위해 스스로 고통을 짊어진 고행자다. 강인한 육체와 체력을 대가로 버티며 적을 분쇄한다.,12,7,15,7,11,8,12,0,BLUNT,PIERCE,SK_P_01|SK_P_02|SK_P_03
+CLS_OCCULTIST,금서 학자,INT,금지된 고대 문헌을 탐구하다 파멸한 학자다. 육체는 허약하지만 원소와 저주로 다수의 적을 압도한다.,7,8,8,15,12,10,-4,8,ELEMENTAL,SLASH,SK_O_01|SK_O_02|SK_O_03
+CLS_INQUISITOR,파문당한 심문관,WIS,교단에서 쫓겨난 이단 심문관이다. 적의 약점을 꿰뚫는 통찰과 강인한 정신력으로 저주에 맞선다.,10,8,10,9,15,8,2,4,CURSE,ELEMENTAL,SK_I_01|SK_I_02|SK_I_03
+CLS_DEMAGOGUE,배덕한 선동가,CHA,세치 혀와 위압감으로 타인을 조종하던 자다. 적의 기세를 꺾어 공포에 빠뜨리고 치명적인 빈틈을 노린다.,8,10,8,10,9,15,0,4,CURSE,BLUNT,SK_D_01|SK_D_02|SK_D_03
+CLS_WANDERER,이름 없는 방랑자,BALANCED,특별한 소속 없이 황무지를 떠돌던 생존자다. 두드러진 약점이 없으며 다양한 도구와 기술로 위기를 넘긴다.,12,12,12,12,12,12,2,2,NONE,NONE,SK_W_01|SK_W_02|SK_W_03
