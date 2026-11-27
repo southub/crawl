@@ -1,0 +1,21 @@
+trait_id,acquisition,name,description,mod_str,mod_dex,mod_con,mod_int,mod_wis,mod_cha,override_strong_attr,override_weak_attr,special_flags
+TR_WEAK_STOMACH,START,쇠약한 위장,허기가 평소보다 30퍼센트 빠르게 차오르지만 맑은 정신 덕분에 지능과 지혜가 높다.,0,0,-1,2,2,0,,,HUNGER_RATE_PLUS_30
+TR_INSOMNIA,START,만성 불면증,기습과 매복에 면역이며 밤을 새워 다진 정신력을 지녔지만 무기력 상태이상에 크게 취약하다.,0,0,-1,1,1,0,,,IMMUNE_AMBUSH|LETHARGY_VULN
+TR_BURN_SCAR,START,화상 흉터,화염과 원소 공격에 취약하지만 굳어진 피부가 참격 피해를 줄여주고 강인한 체력을 지녔다.,0,0,2,0,0,-1,SLASH,ELEMENTAL,
+TR_COLD_BLOOD,START,냉혈한,공포 상태이상에 면역이며 치명타 확률이 크게 오르지만 냉정한 태도로 교섭에 불리하다.,1,1,0,0,0,-1,,,IMMUNE_FEAR|CRIT_PLUS_10
+TR_GLASS_BONE,START,유리 뼈,부상과 중상에 걸릴 확률이 높지만 몸이 가벼워 회피율과 민첩 판정에 유리하다.,-1,3,-2,0,0,0,,,INJURY_RISK_HIGH|EVADE_PLUS_10
+TR_BLOODTHIRST,START,피의 갈망,전투 승리 시 체력을 소량 회복하지만 전투 발생 확률이 상시 10퍼센트 증가한다.,2,0,0,0,-1,0,,,WIN_HEAL_4|COMBAT_RATE_PLUS_10
+TR_HEXED_BLOOD,START,저주받은 혈통,대실패 범위가 1에서 2로 넓어지지만 저주 속성 공격을 반감하고 마력이 증가한다.,0,0,0,2,0,1,CURSE,,FUMBLE_2|MAX_MP_PLUS_4
+TR_IRON_CONSTITUTION,START,고행의 골격,단단한 골격 덕분에 부상에 강하고 체력이 뛰어나지만 둔한 움직임과 낮은 휴식 효율을 안고 있다.,1,-2,2,0,0,0,,,INJURY_RESIST_HIGH|REST_HEAL_MINUS_25
+TR_OPPORTUNIST,START,기회주의자,빈틈을 노리는 감각이 예리해 치명타와 여러 능력치가 고르게 오르지만 휴식 회복 효율이 떨어진다.,0,1,-1,0,1,1,,,CRIT_PLUS_10|REST_HEAL_MINUS_25
+TR_BATTLE_HARDENED,START,백전노장,수많은 사선을 넘은 실전 감각으로 방어 반격 위력이 오르지만 살기가 감돌아 적을 끌어들인다.,1,0,1,1,0,-1,,,COUNTER_DMG_PLUS_25|COMBAT_RATE_PLUS_10
+TR_SHADOW_WALKER,START,그림자 체질,기척을 지우는 타고난 감각으로 적과 마주칠 확률이 줄어들지만 여린 몸으로 받는 피해가 소폭 증가한다.,-1,1,0,0,1,0,,,COMBAT_RATE_MINUS_10|DMG_TAKEN_PLUS_10
+TR_SHARP_INSTINCT,START,잔혹한 본능,적의 급소와 갑옷 틈새를 본능적으로 파고들어 방어를 뚫지만 신경이 날카로워 회복 효율이 떨어진다.,0,1,-1,1,0,0,,,IGNORE_DEF_25|HEAL_MINUS_20
+TR_LEECH_BLOOD,START,거머리 혈통,적에게 입힌 피해의 일부를 생명력으로 흡수하는 기괴한 체질이지만 허기가 빠르게 차고 통찰이 흐려진다.,1,0,1,0,-2,0,,,LIFESTEAL_20|HUNGER_RATE_PLUS_30
+TR_PLAGUE_SURVIVOR,START,역병 생존자,지독한 역병과 원소의 시련을 견뎌낸 강인한 내성과 독 저항력을 지녔으나 깊은 휴식을 취하지 못한다.,-1,0,1,0,0,1,ELEMENTAL,,POISON_RESIST|REST_HEAL_MINUS_25
+TR_EV_SCARRED,EVENT,굳은살과 흉터,숱한 상처를 견뎌내며 근육과 피부가 단단해졌다. 힘과 건강이 오르고 부상에 강해지지만 카리스마가 떨어진다.,1,0,2,0,0,-1,,,INJURY_RESIST_HIGH
+TR_EV_ABYSS_EYE,EVENT,심연의 눈,칠흑 같은 어둠을 오래 응시해 기괴한 시야를 얻었다. 적 간파 확률이 크게 오르지만 무기력에 취약해진다.,0,0,0,0,2,0,,,INSIGHT_PLUS_25|LETHARGY_VULN
+TR_EV_IRON_GUT,EVENT,강철 위장,썩은 물과 날고기를 버텨내며 위장이 단련되었다. 허기 증가 속도가 줄고 중독에 강한 저항력을 얻는다.,0,0,1,0,0,0,,,HUNGER_RATE_MINUS_25|POISON_RESIST
+TR_EV_MADNESS,EVENT,광기의 편린,이성의 일부가 무너져 공포를 느끼지 않게 되었다. 공포에 면역이 되고 치명타가 오르지만 지혜가 감소한다.,0,0,0,0,-2,1,,,IMMUNE_FEAR|CRIT_PLUS_10
+TR_EV_CURSED_MARK,EVENT,고대의 낙인,금지된 제단의 힘이 육체에 새겨졌다. 지능과 최대 마력이 오르지만 받는 모든 피해가 소폭 증가한다.,0,0,0,2,0,0,,,MAX_MP_PLUS_4|DMG_TAKEN_PLUS_10
+TR_EV_SHADOW_STEP,EVENT,어둠의 발걸음,암굴의 지형과 어둠에 완벽히 적응했다. 민첩이 상승하고 적과 조우할 확률이 영구적으로 줄어든다.,0,2,0,0,0,0,,,COMBAT_RATE_MINUS_10
