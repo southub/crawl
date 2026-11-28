@@ -7,5 +7,11 @@ QRK_VAMPIRIC,WEAPON,흡혈의,2,입힌 피해의 일부를 체력으로 흡수�
 QRK_NOISY,BOTH,요란한,2,전투 성능이 크게 상승하지만 쇳소리가 울려 전투 발생 확률이 높아진다.,20,2,0,0,COMBAT_RATE_PLUS_10
 QRK_THORNS,ARMOR,가시 돋친,2,피격 시 적에게 고정 반사 피해를 입히지만 자신의 회복 효율이 떨어진다.,0,0,0,0,THORNS_DMG_3|HEAL_MINUS_20
 QRK_INSIGHT,BOTH,통찰의,2,적의 약점과 속성을 간파할 확률이 오르지만 받는 피해가 소폭 증가한다.,0,0,2,0,INSIGHT_PLUS_20|DMG_TAKEN_PLUS_10
+QRK_MANA_HUNGRY,WEAPON,마력을 삼키는,2,최대 마력이 늘고 마력 소모가 줄어드나 허기가 30퍼센트 빠르게 차오른다.,10,0,0,0,MAX_MP_PLUS_4|MP_COST_MINUS_1|HUNGER_RATE_PLUS_30
+QRK_VENGEFUL,ARMOR,복수심에 찬,2,방어 반격의 위력이 대폭 상승하지만 둔한 무게로 회피가 떨어진다.,0,1,0,0,COUNTER_DMG_PLUS_50|EVADE_MINUS_5
+QRK_PHANTOM,ARMOR,기척을 지우는,2,적과 조우할 확률이 줄고 간파력이 오르지만 깊은 휴식을 취하기 어렵다.,0,0,0,0,COMBAT_RATE_MINUS_10|INSIGHT_PLUS_15|REST_HEAL_MINUS_25
+QRK_SCHOLARLY,BOTH,지식에 굶주린,2,경험치 획득과 적 간파력이 크게 오르지만 적의 주의를 끌어 조우율이 오른다.,0,0,0,0,EXP_PLUS_25|INSIGHT_PLUS_10|COMBAT_RATE_PLUS_10
 QRK_MADNESS,WEAPON,광기의,3,치명타 확률이 크게 오르지만 주사위 대실패 범위가 1에서 2로 넓어진다.,10,0,0,20,FUMBLE_2
 QRK_SOUL_BOUND,BOTH,영혼 결속,3,강력한 힘을 부여하지만 장비를 해제하거나 교체할 때 큰 체력 피해를 입는다.,20,2,0,0,UNEQUIP_DMG_10
+QRK_EXECUTIONER,WEAPON,처형자의,3,체력이 절반 이하인 적에게 막대한 추가 피해를 주지만 방어에 빈틈이 생긴다.,0,0,0,10,EXECUTE_PLUS_50|DMG_TAKEN_PLUS_10
+QRK_ASCETIC,BOTH,불굴의 고행,3,높은 방어력과 독 및 부상 저항을 얻지만 모든 회복 효율이 줄어든다.,0,2,0,0,POISON_RESIST|INJURY_RESIST_HIGH|HEAL_MINUS_20
