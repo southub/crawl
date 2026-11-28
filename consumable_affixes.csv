@@ -1,0 +1,14 @@
+c_affix_id,target_category,prefix_name,min_tier,description,effect_mult,bonus_status_id,bonus_status_chance,special_flags
+CAFX_SPOILED,FOOD,상한,1,보관 상태가 나빠 효능이 줄고 섭취 시 중독될 위험이 있다.,0.7,ST_POISON,40,
+CAFX_MOLDY,FOOD,곰팡이 핀,1,푸른 곰팡이가 피어올라 허기는 채우지만 무기력에 빠질 수 있다.,0.85,ST_LETHARGY,35,
+CAFX_HEARTY,FOOD,알찬,1,상태가 매우 양호해 허기와 체력을 평소보다 크게 회복한다.,1.4,,0,
+CAFX_DILUTED,MEDICINE,희석된,1,물이나 불순물이 섞여 회복량이 줄었지만 기본 치료 기능은 남았다.,0.6,,0,
+CAFX_CONCENTRATED,MEDICINE,고농축,2,성분이 진하게 응축되어 회복량이 크게 오르지만 부작용 위험이 생긴다.,1.6,ST_BLIND,20,
+CAFX_PURE,RECOVERY,고순도,2,불순물을 정밀하게 걸러내어 부작용 없이 회복 효능이 크게 상승한다.,1.45,,0,
+CAFX_VOLATILE,BUFF,폭주하는,2,약효가 격렬하게 활성화되어 수치가 오르고 높은 확률로 집중 상태를 추가로 얻는다.,1.4,ST_FOCUS,60,
+CAFX_REFINED,ANY,정제된,2,불순물을 완벽히 제거해 효능이 오르고 기존 부작용이 사라진다.,1.25,,0,NO_SIDE_EFFECT
+CAFX_STURDY,TOOL,견고한,1,만듦새가 튼튼해 사용 후에도 35퍼센트 확률로 소모되지 않는다.,1.0,,0,KEEP_CHANCE_35
+CAFX_MASTERWORK,TOOL,정교한,2,장인이 다듬은 최상급 도구로 수리와 투척 위력이 오르고 35퍼센트 확률로 남는다.,1.35,,0,KEEP_CHANCE_35
+CAFX_EMERGENCY,ANY,신속,2,손에 쥐기 쉽게 가공되어 탐험 전용 물품이라도 전투 중 즉시 사용할 수 있다.,1.0,,0,USABLE_IN_COMBAT
+CAFX_BLESSED,ANY,축복받은,2,교단의 기도가 서려 있어 사용 시 희미한 가호 상태를 추가로 얻는다.,1.15,ST_BLESSING,100,
+CAFX_ABYSS_TAINTED,RECOVERY,심연에 물든,3,기괴한 힘이 스며 효능이 2배로 뛰지만 사용 시 저주에 걸릴 위험이 크다.,2.0,ST_CURSE,50,
